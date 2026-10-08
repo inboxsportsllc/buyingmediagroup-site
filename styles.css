@@ -169,7 +169,7 @@ button:hover { background: rgba(255,255,255,0.08); }
   .contact-text { font-size: 19px; }
   .ledger-row > :first-child, .ledger-row > :last-child { grid-column: 1 / -1; }
   .ledger-row > :last-child:not(:empty) { margin-top: 12px; }
-  .contact-grid > .contact-intro, .contact-grid > form { grid-column: 1 / -1; }
+  .contact-grid > .contact-intro, .contact-grid > .contact-intro:only-child, .contact-grid > form { grid-column: 1 / -1; }
   .contact-grid > form { margin-top: 32px; }
   .field-pair { grid-template-columns: 1fr; }
   .team-list li { padding: 12px 0; }
